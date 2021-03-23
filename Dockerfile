@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     nginx \
     ruby2.4 \
     ruby2.4-dev
-RUN gem update --system
+RUN gem update --system 2.7.8
 RUN gem install jekyll
 
 # Install badssl.com
